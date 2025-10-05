@@ -1,0 +1,8 @@
+(channel
+  (version 0)
+  (directory "common-between-devices/guix/modules")
+  (url "https://codeberg.org/markeviciuseidvilas/provisions")
+  (dependencies
+    (channel
+      (name nonguix)
+      (url "https://gitlab.com/nonguix/nonguix"))))

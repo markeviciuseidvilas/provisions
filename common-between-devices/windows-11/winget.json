@@ -1,0 +1,42 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"Sources" :
+	[
+		{
+			"Packages" :
+			[
+				{ "PackageIdentifier" : "Google.AndroidStudio" },
+				{ "PackageIdentifier" : "Git.Git" },
+				{ "PackageIdentifier" : "JetBrains.IntelliJIDEA.Community" },
+				{ "PackageIdentifier" : "Microsoft.Office" },
+				{ "PackageIdentifier" : "Microsoft.OneDrive" },
+				{ "PackageIdentifier" : "JetBrains.PyCharm.Community" },
+				{ "PackageIdentifier" : "GNU.Emacs" },
+				{ "PackageIdentifier" : "Google.Chrome" },
+				{ "PackageIdentifier" : "Oracle.VirtualBox" },
+				{ "PackageIdentifier" : "Microsoft.PowerShell" },
+				{ "PackageIdentifier" : "Microsoft.VisualStudio.2022.Community" },
+				{ "PackageIdentifier" : "Microsoft.Edge" },
+				{ "PackageIdentifier" : "OpenWhisperSystems.Signal" },
+				{ "PackageIdentifier" : "ByteDance.CapCut" },
+				{ "PackageIdentifier" : "Discord.Discord" },
+				{ "PackageIdentifier" : "qutebrowser.qutebrowser" },
+				{ "PackageIdentifier" : "yt-dlp.yt-dlp" },
+				{ "PackageIdentifier" : "VSCodium.VSCodium" },
+				{ "PackageIdentifier" : "Telegram.TelegramDesktop" },
+				{ "PackageIdentifier" : "Microsoft.Teams" },
+				{ "PackageIdentifier" : "Microsoft.WindowsTerminal" },
+				{ "PackageIdentifier" : "Google.GoogleDrive" },
+				{ "PackageIdentifier" : "Transmission.Transmission" },
+				{ "PackageIdentifier" : "mpv.net" }
+			],
+			"SourceDetails" :
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	]
+}
