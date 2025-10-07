@@ -102,6 +102,7 @@
       "https://holtz.org"
       "https://humanknowledge.net"
       "https://iep.utm.edu"
+      "https://im1776.com"
       "https://imperiumpress.org"
       "https://incorectpolitic.com"
       "https://isidore.co"
