@@ -1,12 +1,24 @@
 ;;; SPDX-License-Identifier: GPL-3.0-or-later
 ;;; Copyright © 2025 Eidvilas Markevičius <markeviciuseidvilas@gmail.com>
 
-(use-modules (gnu system file-systems)
+(use-modules (gnu bootloader)
+             (gnu bootloader grub)
+             (gnu system file-systems)
              (markeviciuseidvilas systems common))
 
 (operating-system
   (inherit %common-system)
   (host-name "lenovo-v15-g4-amn")
+  (bootloader
+    (bootloader-configuration
+      (bootloader grub-efi-bootloader)
+      (targets '("/boot/efi"))
+      (menu-entries
+        (list
+          (menu-entry
+            (label "Windows 11")
+            (device (uuid "8EF1-7EE4" 'fat))
+            (chain-loader "/EFI/Microsoft/Boot/bootmgfw.efi"))))))
   (file-systems
     (append %base-file-systems
       (list
