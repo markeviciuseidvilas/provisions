@@ -182,6 +182,7 @@
       "https://pixlr.com"
       "https://plato-dialogues.org"
       "https://plato.stanford.edu"
+      "https://preces-latinae.org"
       "https://prodeoetpatria.lt"
       "https://project-mage.org"
       "https://propatria.lt"
