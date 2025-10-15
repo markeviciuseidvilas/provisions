@@ -380,8 +380,7 @@
 
     (origin-paths+titles->bookmarks "https://substack.com" "Substack"
       '(("@markeviciuseidvilas" "Profiliai / Eidvilas Markevičius")
-        ("inbox" "Paštas")
-        ("inbox/saved" "Paštas / Išsaugoti straipsniai")))
+        ("inbox/saved" "Išsaugoti straipsniai")))
 
     (origin-paths+titles->bookmarks "https://tiktok.com" "TikTok"
       '(("@markeviciuseidvilas" "Profiliai / Eidvilas Markevičius")))
